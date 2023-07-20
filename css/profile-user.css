@@ -1,0 +1,35 @@
+.form-save {
+  background-color: #d3cccc;
+  padding-top: 170px;
+  padding-bottom: 70px;
+}
+form {
+  background-color: #fd95ab;
+  width: max-content;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form * {
+  display: block;
+  margin-top: 10px;
+}
+form input {
+  width: 300px;
+  outline: none;
+}
+.save {
+  display: flex;
+  justify-content: space-between;
+}
+.save a {
+  color: white;
+}
+#btn-form {
+  background-color: #e87a92;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}

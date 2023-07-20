@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="wapper">
+      <header class="header">
+        <!-- top -->
+        <div class="header-moving">
+          <div class="header-wrapper-top">
+            <div class="header-top">
+              <div class="header-top__left">
+                <p>KYO Authentic- Shop Mỹ Phẩm, Son Môi, Nước Hoa Chính Hãng</p>
+              </div>
+              <div class="header-top__right">
+                <ul class="header-contact">
+                  <li class="header-contact__email">
+                    <a href="#">
+                      <i class="bx bx-envelope"></i
+                      ><span>nguyenkhactai1@gmail.com</span>
+                    </a>
+                  </li>
+                  <li class="header-contact__phone">
+                    <a href="#"
+                      ><i class="bx bx-phone"></i><span>024.66.737.999</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- main -->
+          <div class="header-wapper-main">
+            <div class="container">
+              <div class="header-main__left">
+                <a href="/index.html"><img src="img/logo-kyo.png" alt="" /></a>
+              </div>
+
+              <div class="header-main__mid">
+                <div class="input-search">
+                  <input
+                    type="text"
+                    id="search-value"
+                    placeholder="Nhập từ khóa tìm kiếm"
+                  />
+                  <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </div>
+              </div>
+              <div class="header-main__right">
+                <div class="user-account">
+                  <div class="account-username">
+                    <a href="./html/profile-user.html"><p id="username"></p></a>
+                  </div>
+
+                  <div class="cart">
+                    <a href="./html/cart.html"
+                      ><i
+                        class="bx bx-cart"
+                        style="color: #fd95aa; font-size: 35px"
+                      ></i
+                    ></a>
+                  </div>
+
+                  <button class="login">
+                    <a href="html/login.html">Đăng nhập</a>
+                  </button>
+                  <button class="register">
+                    <a href="html/signup.html" id="signup">Đăng ký</a>
+                  </button>
+                  <div class="user-management">
+                    <a href="./html/user-management.html"
+                      ><i class="management fa-solid fa-house fa-xl"></i
+                    ></a>
+                  </div>
+                  <div class="logout">
+                    <a href=""
+                      ><i
+                        class="logout-user fa-solid fa-right-from-bracket fa-xl"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- bottom -->
+          <div class="header-wapper-bottom">
+            <div class="header-bottom">
+              <div class="container">
+                <ul class="navbar">
+                  <li>
+                    <a href="/index.html"
+                      ><i class="fa-solid fa-house"></i
+                      ><span>TRANG CHỦ</span></a
+                    >
+                  </li>
+                  <li><a href="#lipstick">SON MÔI</a></li>
+                  <li><a href="#perfume">NƯỚC HOA</a></li>
+                  <li><a href="#sunscreen">CHỐNG NẮNG</a></li>
+                  <li><a href="#facemakeup">TRANG ĐIỂM MẶT</a></li>
+                  <li><a href="#eyemakeup">TRANG ĐIỂM MẮT</a></li>
+                  <li><a href="#skincare">CHĂM SÓC DA</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main id="main">
+        <section id="slider">
+          <div class="slider">
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                  <img src="img/slider-1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/slider-2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/slider-3.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- section son moi -->
+        <div class="gap"></div>
+        <section id="featured-products">
+          <div class="section-content">
+            <div class="section-main">
+              <h2 class="product-title">
+                <span id="lip">SON MÔI</span>
+              </h2>
+              <div class="content">
+                <div class="container text-center">
+                  <div class="row" id="products">
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">
+                              <a href="./html/cart.html">Mua ngay</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-2.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 600.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-3.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son YSL Rouge Pur Couture The Slim
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-5.jpeg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Kem Tom Ford Liquid Lip Luxe Matte
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 400.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-6.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Tom Ford Màu 09 Jackie Soft-Shine – Hồng Cam
+                              Đào
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 990.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-7.webp" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim Collector màu 110 Vỏ Rắn (Bản giới
+                              hạn) – Đỏ cam
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 880.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="gap"></div>
+        <!-- section nuoc hoa -->
+        <!-- <section>
+          <div class="section-content">
+            <div class="section-main">
+              <h2 class="product-title">
+                <span id="perfume">NƯỚC HOA</span>
+              </h2>
+              <div class="content">
+                <div class="container text-center">
+                  <div class="row" id="products" class="product-perfum">
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-2.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 600.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-3.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son YSL Rouge Pur Couture The Slim
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-5.jpeg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Kem Tom Ford Liquid Lip Luxe Matte
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 400.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-6.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Tom Ford Màu 09 Jackie Soft-Shine – Hồng Cam
+                              Đào
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 990.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-7.webp" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim Collector màu 110 Vỏ Rắn (Bản giới
+                              hạn) – Đỏ cam
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 880.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <div class="gap"></div>
+        <!-- sunscreen -->
+        <!-- <section>
+          <div class="section-content">
+            <div class="section-main">
+              <h2 class="product-title">
+                <span id="sunscreen">KEM CHỐNG NẮNG</span>
+              </h2>
+              <div class="content">
+                <div class="container text-center">
+                  <div class="row" id="products">
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-2.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 600.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-3.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son YSL Rouge Pur Couture The Slim
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-5.jpeg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Kem Tom Ford Liquid Lip Luxe Matte
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 400.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-6.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Tom Ford Màu 09 Jackie Soft-Shine – Hồng Cam
+                              Đào
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 990.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-7.webp" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim Collector màu 110 Vỏ Rắn (Bản giới
+                              hạn) – Đỏ cam
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 880.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <div class="gap"></div>
+        <!-- face-makeup -->
+        <!-- <section>
+          <div class="section-content">
+            <div class="section-main">
+              <h2 class="product-title">
+                <span id="face-makeup">TRANG ĐIỂM MẶT</span>
+              </h2>
+              <div class="content">
+                <div class="container text-center">
+                  <div class="row" id="products">
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-2.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 600.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-3.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son YSL Rouge Pur Couture The Slim
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-5.jpeg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Kem Tom Ford Liquid Lip Luxe Matte
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 400.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-6.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Tom Ford Màu 09 Jackie Soft-Shine – Hồng Cam
+                              Đào
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 990.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-7.webp" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim Collector màu 110 Vỏ Rắn (Bản giới
+                              hạn) – Đỏ cam
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 880.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <div class="gap"></div>
+        <!-- eye-makeup -->
+        <!-- <section>
+          <div class="section-content">
+            <div class="section-main">
+              <h2 class="product-title">
+                <span id="eye-makeup">TRANG ĐIỂM MẮT</span>
+              </h2>
+              <div class="content">
+                <div class="container text-center">
+                  <div class="row" id="products">
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-2.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 600.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-3.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son YSL Rouge Pur Couture The Slim
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-5.jpeg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Kem Tom Ford Liquid Lip Luxe Matte
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 400.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-6.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Tom Ford Màu 09 Jackie Soft-Shine – Hồng Cam
+                              Đào
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 990.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-7.webp" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim Collector màu 110 Vỏ Rắn (Bản giới
+                              hạn) – Đỏ cam
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 880.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <!-- <section>
+          <div class="section-content">
+            <div class="section-main">
+              <h2 class="product-title">
+                <span id="skincare">CHĂM SÓC DA</span>
+              </h2>
+              <div class="content">
+                <div class="container text-center">
+                  <div class="row" id="products">
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-2.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 600.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-3.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son YSL Rouge Pur Couture The Slim
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-5.jpeg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Kem Tom Ford Liquid Lip Luxe Matte
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 400.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-6.jpg" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Tom Ford Màu 09 Jackie Soft-Shine – Hồng Cam
+                              Đào
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 990.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-7.webp" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim Collector màu 110 Vỏ Rắn (Bản giới
+                              hạn) – Đỏ cam
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 300.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Set 2 cây dưỡng Dior full size (màu 001, 004)
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 880.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="product">
+                        <div class="product-item">
+                          <div class="product-top">
+                            <a href="">
+                              <img src="img/son-1.png" />
+                            </a>
+                          </div>
+                          <div class="product-bot">
+                            <div class="product-name">
+                              Son Ysl Slim 07 – Hồng Đất Thiên Hồng
+                            </div>
+                            <div class="product-price">
+                              <span>Giá: 890.000</span>
+                            </div>
+                            <button class="add-to-cart-button">Mua ngay</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <section id="section-blog">
+          <div class="blog">
+            <div class="blog-content">
+              <div class="title">
+                <h3 class="title-content">
+                  <span>Blog & Tư Vấn</span>
+                </h3>
+              </div>
+
+              <div class="blog-main">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="img-blog">
+                      <img src="img/blog1.png" alt="" />
+                      <div class="img-blog__content">
+                        <p>TOP CHAI NƯỚC HOA NỮ DỊU NHẸ CHO MỌI NGƯỜI</p>
+                        <button>Xem</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-blog">
+                      <img src="img/blog-2.jpg" alt="" />
+                      <div class="img-blog__content">
+                        <p>Top 5 CHAI NƯỚC HOA NỮ DIU NHẸ CHO DÂN</p>
+                        <button>Xem</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-blog">
+                      <img src="img/blog-3.jpg" alt="" />
+                      <div class="img-blog__content">
+                        <p>Top 5 CHAI NƯỚC HOA NỮ DIU NHẸ CHO DÂN</p>
+                        <button>Xem</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-blog">
+                      <img src="img/blog-4.png" alt="" />
+                      <div class="img-blog__content">
+                        <p>Top 5 CHAI NƯỚC HOA NỮ DIU NHẸ CHO DÂN CÔN</p>
+                        <button>Xem</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-blog">
+                      <img src="img/blog-5.jpg" alt="" />
+                      <div class="img-blog__content">
+                        <p>Top 5 CHAI NƯỚC HOA NỮ DIU NHẸ CHO DÂN</p>
+                        <button>Xem</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="img-blog">
+                      <img src="img/blog-6.png" alt="" />
+                      <div class="img-blog__content">
+                        <p>NHỮNG MÙI NƯỚC HOA NAM NHỮNG MÙI NƯỚC</p>
+                        <button>Xem</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer id="footer">
+      <div class="gap-footer"></div>
+      <div class="row row-mall">
+        <div class="col medium-3 small-12 large-3">
+          <div class="col-inner">
+            <p><strong>KYO AUTHENTIC</strong></p>
+            <div class="text-footer">
+              <p>
+                <strong>CN1</strong
+                ><span
+                  >12 Ngõ 86 Phố Chùa Hà, Cầu Giấy, Hà Nội (hoặc 12/12 Phố
+                  Nguyễn Văn Huyên)</span
+                >
+              </p>
+              <p>
+                <strong>CN2</strong
+                ><span>
+                  Tháp A1, Rừng Cọ, KĐT Ecopark, Văn Giang, Hưng Yên</span
+                >
+              </p>
+
+              <p>
+                <strong>E-mail: </strong><span>nguyenkhactai1@gmail.com</span>
+              </p>
+              <p><strong>Điện thoại: </strong><span>024.66.737.999</span></p>
+              <p>
+                <strong>Hotline: </strong
+                ><span>0986.448.789 / 0975.436.989</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col medium-3 small-12 large-3">
+          <div class="col-inner">
+            <p><strong>THÔNG TIN HỖ TRỢ</strong></p>
+            <div class="text-footer">
+              <p>
+                <span>Giới thiệu</span>
+              </p>
+              <p>
+                <span>Liên hệ</span>
+              </p>
+              <p>
+                <span>Hướng dẫn mua hàng</span>
+              </p>
+              <p>
+                <span>Theo dõi đơn hàng</span>
+              </p>
+              <p>
+                <span>Hướng dẫn đổi trả</span>
+              </p>
+              <p>
+                <span>Chính sách vận chuyển</span>
+              </p>
+              <p>
+                <span>Chính sách bảo mật</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col medium-3 small-12 large-3">
+          <div class="col-inner">
+            <p><strong>DANH MỤC CHÍNH</strong></p>
+            <div class="text-footer">
+              <p>
+                <span>Son Môi</span>
+              </p>
+              <p>
+                <span>Nước Hoa</span>
+              </p>
+              <p>
+                <span>Nước Hoa Nam</span>
+              </p>
+              <p>
+                <span>Nước Hoa Nữ</span>
+              </p>
+              <p>
+                <span>Trang Điểm Mặt</span>
+              </p>
+              <p>
+                <span>Trang Điểm Mắt</span>
+              </p>
+              <p>
+                <span>Chăm Sóc Da</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col medium-3 small-12 large-3">
+          <div class="col-inner">
+            <p><strong>THEO DÕI CHÚNG TÔI</strong></p>
+            <div class="text-footer">
+              <p>
+                <span
+                  >Đăng ký email để không bỏ lỡ các chương trình khuyến mãi và
+                  những thông tin mới nhất</span
+                >
+              </p>
+              <div class="social-media-footer">
+                <i class="fa-brands fa-facebook fa-2xl"></i>
+                <i class="fa-brands fa-square-instagram fa-2xl"></i>
+                <i class="fa-solid fa-envelope fa-2xl"></i>
+                <i class="fa-brands fa-linkedin fa-2xl"></i>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/database.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý đơn hàng</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/order-management.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside id="layout-menu">
+        <div class="header-main__left">
+          <a href="/index.html"><img src="../img/logo-kyo.png" alt="" /></a>
+        </div>
+        <div class="menu-top">
+          <h1>Trang quản trị viên</h1>
+        </div>
+        <div class="menu-main">
+          <div class="management">
+            <i class="bx bx-user"></i>
+            <a href="user-management.html">Quản lý người dùng</a>
+          </div>
+          <div class="management">
+            <i class="bx bxl-product-hunt"></i>
+            <a href="product-management.html">Quản lý sản phẩm</a>
+          </div>
+          <div class="management active">
+            <i class="bx bx-cart"></i>
+            <a href="order-management.html">Quản lý đơn hàng</a>
+          </div>
+          <div class="management">
+            <i class="bx bx-phone-call"></i> <a href="">Quản lý liên hệ</a>
+          </div>
+        </div>
+      </aside>
+      <!-- navbar -->
+      <div class="layout-page">
+        <div class="layout-navbar">
+          <div class="layout-navbar__main">
+            <div class="search-group">
+              <input type="text" placeholder="Tìm kiếm" />
+              <button class="btn-search">Tìm kiếm</button>
+            </div>
+
+            <div class="user-account">
+              <div class="account-username">
+                <p id="username"></p>
+              </div>
+              <div class="logout">
+                <a href=""
+                  ><i
+                    class="logout-user fa-solid fa-right-from-bracket fa-xl"
+                  ></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!-- table -->
+          <div class="wapper">
+            <h3>Danh sách đơn hàng</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Mã đơn hàng</th>
+                  <th>Ngày đặt hàng</th>
+                  <th>Ngày giao</th>
+                  <th>Trạng thái</th>
+                  <th>Tổng tiền</th>
+                  <th>Hành động</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- <tr>
+                  <td>1</td>
+                  <td>nguyenkhactai</td>
+                  <td>nguyenkhactai@gmail.com</td>
+                  <td>Khách hàng</td>
+                  <td>Active</td>
+                  <td>
+                    <button class="detail">Chi tiết</button
+                    ><button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>nguyenkhactai</td>
+                  <td>nguyenkhactai@gmail.com</td>
+                  <td>Khách hàng</td>
+                  <td>Active</td>
+                  <td>
+                    <button class="detail">Chi tiết</button
+                    ><button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>nguyenkhactai</td>
+                  <td>nguyenkhactai@gmail.com</td>
+                  <td>Khách hàng</td>
+                  <td>Active</td>
+                  <td>
+                    <button class="detail">Chi tiết</button
+                    ><button class="edit">Sửa</button>
+                    <button class="delete">Xóa</button>
+                  </td>
+                </tr> -->
+              </tbody>
+            </table>
+            <!-- end table -->
+          </div>
+        </div>
+      </div>
+      <!-- End navbar -->
+    </div>
+    <script src="../js/orderProduct.js"></script>
+  </body>
+</html>

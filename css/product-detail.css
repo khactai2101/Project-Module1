@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.detail-product__wrapper {
+  background-color: #f4f4f4;
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+#carouselExampleFade {
+  width: 600px;
+}
+
+.select-option__product {
+  padding-top: 30px;
+}
+.product-shopping {
+  max-width: max-content;
+  height: 330px;
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid rgb(214, 214, 214);
+  width: 300px;
+  border-radius: 4px;
+}
+.user-block {
+  width: 200px;
+  height: 330px;
+  font-size: 20px;
+
+  border: 1px solid rgb(214, 214, 214);
+  width: 300px;
+  border-radius: 4px;
+}
+.user-block p {
+  color: red;
+}
+.last-price {
+  text-decoration: line-through;
+}
+.new-price {
+  color: red;
+  font-weight: bold;
+}
+.store-near {
+  display: flex;
+}
+.stocking {
+  color: rgb(193, 104, 119);
+}
+.quantity {
+  display: flex;
+}
+.quantity input {
+  width: 40px;
+  height: 20px;
+}
+.btn-shopping button {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #fd95ab;
+  border-radius: 4px;
+  color: white;
+}
+.btn-shopping button:hover {
+  background-color: #c96379;
+}

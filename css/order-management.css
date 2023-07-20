@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Menu */
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #dcdce3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-main__left {
+  padding-top: 20px;
+}
+.menu-top {
+  margin: 40px 0;
+}
+.menu-top h1 {
+  color: #c756c8;
+}
+#layout-menu {
+  width: 18%;
+  background-color: white;
+  height: 800px;
+  padding-left: 20px;
+}
+#layout-menu a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+}
+.user-account {
+  display: flex;
+  margin-right: 60px;
+  gap: 20px;
+  align-items: center;
+}
+.active {
+  color: #c756c8;
+  font-weight: 500;
+  font-weight: bold;
+}
+.management {
+  margin-bottom: 40px;
+}
+.management:hover {
+  color: #c756c8;
+}
+.search-group {
+  display: flex;
+}
+.menu-main {
+  display: flex;
+  flex-direction: column;
+}
+/* End menu */
+/* layout-page */
+.layout-page {
+  /* background-color: rgb(116, 69, 69); */
+  width: 100%;
+  height: 100vh;
+  padding: 0 40px;
+}
+.layout-navbar input {
+  width: 700px;
+
+  outline: none;
+}
+.layout-navbar__main {
+  background-color: white;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.btn-search {
+  padding: 0 5px;
+  background-color: #566a7f;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.search-group {
+  display: flex;
+}
+.admin {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.btn-logout {
+  padding: 10px;
+  background-color: rgb(172, 13, 13);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-add {
+  background-color: rgb(41, 186, 235);
+  border: none;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+/* table */
+.wapper {
+  background-color: rgb(247, 247, 247);
+  border-radius: 8px;
+  padding: 10px;
+}
+.wapper h3 {
+  color: #c756c8;
+}
+
+table {
+  text-align: left;
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+table td {
+  border-bottom: 1px solid #c6c2c2;
+  color: #91969c;
+}
+
+th {
+  border-bottom: 1px solid #939292;
+  color: #566a7f;
+}
+.edit {
+  padding: 5px;
+  background-color: rgb(73, 211, 73);
+  border: none;
+  padding: 10px 15px;
+}
+.detail {
+  padding: 5px;
+  background-color: rgb(101, 151, 227);
+  border: none;
+  padding: 10px 15px;
+}
+.delete {
+  padding: 5px;
+  background-color: rgb(210, 61, 61);
+  border: none;
+  padding: 10px 15px;
+}
+
+/* end table */
+/* end layout-page */
